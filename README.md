@@ -6,10 +6,14 @@ Tested with Cyclone III and will probably work with Cyclone IV (untested).
 Additional notes:
 From the user guide
 read_source follow: 
-■ 00 - Current State Content in Status Register 
+■ 00 - Current State Content in Status Register
+
 ■ 01 - Previous State Register 1 Content in Status Register 
+
 ■ 10 - Previous State Register 2 Content in Status Register 
+
 ■ 11 - Value in Input Register  ← **use this one**
+
  
 2) Read out and check the registers of altremote_update before and after you try to restart in application image. Note that its confusing which value to use for read_source for Cyclone III/IV. I have come to that read_source shall be 0 for parameter 1 (Current image), 2 for parameter 4 (Boot address) and 1 for parameter 7 (Config source)
  
