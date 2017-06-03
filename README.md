@@ -3,6 +3,7 @@ Wishbone bus (simple) to Altera Remote System Update IP Core (MegaWizard cores)
 
 Tested with Cyclone III and will probably work with Cyclone IV (untested).  
 rsu-main.c -- example program that does many different functions and automatically starts reconfigure
+
 wb2rsu.vhdl -- VHDL entity that connects wishbone bus to Altera's RSU ip core.
 
 Additional notes:
