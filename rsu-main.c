@@ -10,6 +10,7 @@
 
 //BTADDRESS is the REAL PAGE address you want to load. (shifting is handled by the software)
 #define BTADDRESS 0x00080000
+//Register address location for R/W RSU EEPROM interface.
 #define RSUBASE 0xFFFF0500
 #define RSU_WATCHDOG_TIMEOUT_VALUE_WR_MASK	( 0xFFF )
 #define RSU_BOOT_ADDRESS_WR_MASK	( 0x003FFFFF )
